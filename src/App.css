@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+.App  {
+position: absolute;
+width: 1100px;
+height: 2200px;
+margin: 0;
+padding: 0;
+background: url('https://s3.amazonaws.com/crypt0currency/img/shaq-shark-week-18.jpg');
+background-size: contain
+
+
+}

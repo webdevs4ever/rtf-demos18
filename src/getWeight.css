@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+.outer {
+    position: fixed;
+    width: 560px;
+    height: 185px;
+    margin-top: 215px;
+    margin-left: 15%;
+    background-color: yellow
+    
+    
+}
+
+.demoForm {
+    position: relative;
+    width: 560px;
+    background-color: black;
+    margin: 0 !important;
+    height: 155px
+    
+}
+.demo-txt {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #94AEBF;
+    font-size: 14px;
+    
+
+}
+
+
+.form-control  {
+    background-color: lightgrey;
+    border: #999;
+    height: 24px;
+    width: 400px;
+    margin: 1px 1px 10px 20px;
+    text-align: left
+}
+
+.address   {
+    position: absolute;
+    height: 40px;
+    width: 600px;
+    top: 100px
+    
+
+}
+.form-city  {
+    position: relative;
+    background-color: lightgrey;
+    border: #999;
+    height: 24px;
+    width: 115px;
+    margin: 1px 1px 10px -180px;
+    text-align: left
+}
+
+.form-state  {
+    position: relative;
+    background-color: lightgrey;
+    border: #999;
+    height: 24px;
+    width: 50px;
+    margin: 1px 1px 10px 15px;
+    text-align: left
+}
+
+.form-zip  {
+    position: relative;
+    background-color: lightgrey;
+    border: #999;
+    height: 24px;
+    width: 75px;
+    margin: 1px 1px 10px 15px;
+    text-align: left
+}
+
+.form-group   {
+    position: relative;
+    float: left;
+    margin-left: 50px
+
+}
+
+.name {
+    color: #fff
+
+}
+.btn1 {
+    position: relative;
+    float: left;
+    margin: 35px 1px 1px 170px
+    
+}
+
+.btn2 {
+    position: relative;
+    float: left;
+    margin: 35px 1px 1px 10px
+    
+}
+
+.btn1-primary  {
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+    width: 100px;
+    height: 28px;
+    border-radius: 2px;
+    border: red
+
+}
+
+
+.hasError p {
+    position: absolute;
+    margin-top: -10px;
+    width: 725px;
+    color: white
+}
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    /* Tablet only */
+    
+    .demoForm {
+    
+    margin: 15%
+    
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Mobile only */
+    .outer   {
+        height: 225px;
+
+    }
+
+   .demoForm {
+    width: 380px;
+    height: 250px;
+    margin: 0;
+    padding: 0
+    }
+
+    .demo-txt {
+        width: 300px;
+        margin: 53px 1px -7px 46px
+        
+    }
+    .form-group  {
+        margin-left: -40px
+    }    
+    .form-control  {
+        width: 350px;
+        background-color: darkgray;
+        color:  whitesmoke;    
+        margin: 50px 1px 1px 55px 
+    }    
+
+    .btn1 {
+        position: absolute;
+        margin: 82px 13px;
+        
+
+    }
+    
+    .btn1-primary  {
+        color: white;
+        background-color: red;
+        width: 355px;
+        height: 28px;
+        border-radius: 2px;
+        border: red
+    
+    }
+
+    
+
+    
+
+
+}
+
+
+
+
+
+
+

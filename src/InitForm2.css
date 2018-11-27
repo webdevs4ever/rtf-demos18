@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+.demoForm2 {
+    position: absolute;
+    width: 680px;
+    margin: 15%;
+    background-color: black;    
+    height: auto
+}
+
+
+.join-txt2  {
+    position: relative;
+    float: left;
+    color: #b6fdbf;
+    font-size: 32px;
+    margin: 8px 1px 1px 40px
+
+}
+
+.demo-txt2 {
+    position: relative;
+    margin-left: 33%;
+    padding: 25px 0px 10px;
+    color: #94AEBF;
+    font-size: 14px
+
+}
+
+.error-msg {
+    color: white;
+    font-size: 10px
+}
+
+.firstName2 {
+    position: relative;
+    float: left;
+    margin: 12px 43px;
+    background-color: darkgray;
+    border: darkgray;
+    color: #000;
+    height: 25px;
+    width: 100px
+}
+
+.lastName2 {
+    position: relative;
+    float: left;
+    margin: 12px 0px 30px;
+    background-color: darkgray;
+    border: darkgray;
+    color: #000;
+    height: 25px;
+    width: 100px
+}
+
+
+.btn2 {
+    position: relative;
+    float: left;
+    margin: 12px 15px
+}
+
+.btn2-primary  {
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+    border: red;
+    width: 100px;
+    height: 28px;
+    border-radius: 2px;
+    cursor: pointer
+    
+}
+
+.formErrors p {
+    color: whitesmoke !important;
+    margin: 1px 1px 1px 20px !important;
+    font-size: 10px
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    /* Mobile only */
+    .join-txt2 { position: absolute; font-size: 1.6em; width: 270px; color: #b6fdbf;
+                 margin: -70px 1px 5px 110px }
+
+    .form-control  { width: 176px }
+
+    .demoForm2 { width: 480px; height: 220px; margin: 0; padding: 0; top: 450px; left: 75px }
+
+    .demo-txt2 {
+        width: 330px;
+        padding-top: 45px;
+        margin-left: 17%;
+    }
+
+    .form-group  {
+        margin-left: -40px
+    }    
+    
+    .form-control  {
+        width: 150px
+    }    
+
+    .firstName2 { position: absolute; margin: -25px 11px 1px 16px;height: 32px; width: 190px }
+
+    .lastName2 { position: absolute; margin: -25px 1px 1px 200px; height: 32px; width: 190px }
+
+    .btn2 { position: relative; clear: both; margin: 25px 1px 1px 40px }
+    
+    .btn2-primary  { width: 400px; height: 32px; font-size: 16px; clear: both; background-color: red; color: white;
+                     border: red; border-radius: 2px }
+
+    
+    .formErrors p { color: whitesmoke !important; margin: 1px 1px 1px 20px !important; font-size: 10px}
+
+}
+
+@media only screen and (max-width: 500px) {
+    /* Mobile only */
+    .demoForm2 { width: 400px; height: 220px; margin: 0 ; padding: 0 ; top: 450px; left: 20px }
+
+    .join-txt2 { position: absolute; font-size: 1.6em; width: 270px; color: #b6fdbf;
+                 margin: -70px 1px 5px 65px }
+
+    .demo-txt2 { width: 330px; padding-top: 45px; margin-left: 7%;}
+    
+    .firstName2 { position: absolute; margin: -25px 11px 1px 7px; height: 32px; width: 160px }
+
+    .lastName2 { position: absolute; margin: -25px 1px 1px 170px;  height: 32px; width: 160px }
+
+    .btn2 { position: relative; clear: both; margin: -1px 1px 1px -13px; }
+    .btn2-primary { position: relative; clear: both; margin: 25px 1px 1px 40px; width: 345px }
+
+}

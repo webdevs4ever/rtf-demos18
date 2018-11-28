@@ -187,6 +187,7 @@
 
     }
 
+    .chkbox { position: absolute; margin-left: 1px; width: 750px }
     .chkbox-txt p { margin: 183px 95px 1px; width: 350px }
     .chkbox-txt a { color: darkgrey }
 

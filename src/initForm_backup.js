@@ -8,8 +8,10 @@ class InitForm extends Component {
     super(props);
     this.state = {
       email: '',
-      formErrors: {email: ''},
+      password: '',
+      formErrors: {email: '', password: ''},
       emailValid: false,
+      passwordValid: false,
       formValid: false
     }
   }
@@ -26,17 +28,17 @@ class InitForm extends Component {
   validateField(fieldName, value) {
     let fieldValidationErrors = this.state.formErrors;
     let emailValid = this.state.emailValid;
-    
+    let passwordValid = this.state.passwordValid;
 
     switch(fieldName) {
       case 'email':
         emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
         fieldValidationErrors.email = emailValid ? '' : ' is invalid';
         break;
-      // case 'password':
-      //   passwordValid = value.length >= 6;
-      //   fieldValidationErrors.password = passwordValid ? '': ' is too short';
-      //   break;
+      case 'password':
+        passwordValid = value.length >= 6;
+        fieldValidationErrors.password = passwordValid ? '': ' is too short';
+        break;
       default:
         break;
     }

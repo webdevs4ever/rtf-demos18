@@ -16,7 +16,7 @@ class Congrats extends Component {
       <div className="demoForm3">
         <div className="demo-txt3"> Congratulations!</div>
         
-        <div className="join-txt3">Thank You For Signing Up!<br />
+        <div className="join-txt3">thank you for signing up!<br />
 <span className="join-txt-sm">Look out for the latest news on your favorite shows</span></div>            
             
         

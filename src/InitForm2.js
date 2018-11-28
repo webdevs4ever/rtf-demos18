@@ -64,7 +64,7 @@ class InitForm2 extends Component {
           <FormErrors formErrors={this.state.formErrors} />
         </div>
         
-        <div className="join-txt2">Join the List!
+        <div className="join-txt2">join the list!
         </div>    
         <div className={`form-group ${this.errorClass(this.state.formErrors.firstName)}`}>
           <input type="textarea" required className="firstName2" name="firstName"

@@ -1,5 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-
+/* @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light); */
+@font-face {
+    font-family: 'Elaine_D02';
+    src: url('./fonts/Elaine_D02.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/Elaine_D02.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Elaine_D02.woff') format('woff'), /* Modern Browsers */
+        url('./fonts/Elaine_D02.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Elaine_D02.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
 /* #page { position: relative; max-width: 1200px; margin:0 auto;} */
 
 .demoForm {
@@ -17,6 +26,7 @@
 .join-txt  {
     position: relative;
     display: flex;
+    font-family: 'Elaine_D02';
     align-items: center;
     float: left;
     padding-left: 3%;
@@ -30,12 +40,13 @@
     position: relative;
     color: #94AEBF;
     font-size: 14px;
-    margin: 10px 1px 1px 56px    
+    margin: 10px 1px 10px -62px    
 }
 
 .chkbox {
     position: absolute;
     width: 750px;
+    margin-left: -59px;
     cursor: pointer
 }
 
@@ -45,7 +56,7 @@
 
 }
 
-.chkbox-txt p { position: absolute; font-size: 10px; color: #999; margin: 53px 265px 1px; width: 205px;
+.chkbox-txt p { position: absolute; font-size: 10px; color: #999; margin: 53px 265px 1px; width: 187px;
                 text-align: left }
 
 .chkbox-txt a { color: darkgray }
@@ -96,7 +107,8 @@
 
 .formErrors p {
     top:  20px;
-    left: 50px
+    left: 50px;
+    
 }
 
 

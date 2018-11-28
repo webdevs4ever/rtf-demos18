@@ -68,7 +68,7 @@ class InitForm extends Component {
         <div className="panel panel-default">
           <FormErrors formErrors={this.state.formErrors} />
         </div></div>
-        <div className="join-txt">Join the List!
+        <div className="join-txt">join the list!
         </div>    
         
         {/* <div className={`form-group ${this.errorClass(this.state.formErrors.lastName)}`}>

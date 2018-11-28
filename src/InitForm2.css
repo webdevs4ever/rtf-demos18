@@ -3,9 +3,10 @@
 .demoForm2 {
     position: absolute;
     width: 680px;
+    top: 400px;
     margin: 15%;
     background-color: black;    
-    height: auto
+    height: 155px
 }
 
 

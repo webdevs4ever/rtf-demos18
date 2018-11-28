@@ -45,7 +45,7 @@ class InitForm extends Component {
 
     this.setState({formErrors: fieldValidationErrors,
                     emailValid: emailValid,
-                    passwordValid: passwordValid
+                    
                   }, this.validateForm);
   }
 
@@ -70,13 +70,21 @@ class InitForm extends Component {
         </div></div>
         <div className="join-txt">Join the List!
         </div>    
+        
+        {/* <div className={`form-group ${this.errorClass(this.state.formErrors.lastName)}`}>
+          <input type="textarea" className="lastName2" name="lastName"
+            placeholder="Last Name"
+            value={this.state.lastName}
+            onChange={this.handleUserInput}  />
+        </div> */}
+
         <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
-    
-        <input type="textarea" required className="form-control" name="email"
+          <input type="textarea" className="form-control" name="email"
             placeholder="Email address"
             value={this.state.email}
             onChange={this.handleUserInput}  />
         </div>
+
       <div className="chkbox">
         <div className="chkbox-txt">
         <input type="checkbox" className="check1"  />

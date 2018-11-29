@@ -11,16 +11,15 @@
     font-style: normal;
 }
 
-.demoForm3 {
-    position: absolute;
-    top: 400px;
-    width: 1027px;
+.demoForm3 { 
+    position: absolute; 
+    top: 400px; 
+    width: 1027px; 
     margin: 50px 1px 1px 25px;
-    background-color: black;
-    color: #B6FDBF;
+    background-color: black; 
+    color: #B6FDBF; 
     height: 200px;
-    font-family: Helvetica, Arial, sans-serif
-
+    font-family: Helvetica, Arial, sans-serif 
 }
 
 .demo-txt3 {
@@ -50,13 +49,9 @@
     line-height: 18px
 }
 
-
-
-
 .formErrors p  {
     color: white;
     margin: 0
-
 }
 
 
@@ -64,84 +59,32 @@
 @media only screen and (max-width: 950px) {
     /* Tablet only */
 
-    .demoForm3 {
-        position: absolute;
-        top: 400px;
-        margin: 5%;
-        width: 925px;
-        background-color: black;
-        color: #B6FDBF;
-        height: 200px;
-        font-family: Helvetica, Arial, sans-serif
-    
-    }
+    .demoForm3 { position: absolute; top: 400px; margin: 5%; width: 925px; background-color: black;
+                 color: #B6FDBF; height: 200px; font-family: Helvetica, Arial, sans-serif }
 
-    .demo-txt3  {
-        position: absolute;
-        display: block;
-        font-size: 2.2em;
-        margin: 20px 1px 1px 320px  
-  
-      }     
+    .demo-txt3  { position: absolute; display: block; font-size: 2.2em;
+                  margin: 20px 1px 1px 320px  }     
 
-    .join-txt3 {
-        position: relative;
-        display: block;
-        color: #94AEBF;
-        font-size: 28px;
-        margin: 100px 1px 1px -115px
-    }
+    .join-txt3 { position: relative; display: block; color: #94AEBF; font-size: 28px;
+                 margin: 100px 1px 1px -115px }
 
     
-    
-    .join-txt3 span {
-            position: relative;
-            color: #94AEBF;
-            font-size: .7em;
-            line-height: 48px
-            
-        }
+    .join-txt3 span { position: relative; color: #94AEBF; font-size: .7em;
+                      line-height: 48px  }
         
-        
-
-
 }
-
-
-
-    
 
 @media only screen and (max-width: 700px) {
     /* Mobile only */
-    .demoForm3 {
-        width: 480px;
-        height: 200px;
-        margin: 0;
-        padding: 0;
-        top: 400px;
-        left: 75px
+    .demoForm3 { width: 480px; height: 200px; margin: 0; padding: 0; top: 400px;
+                left: 75px }
 
-        }
-
-    .demo-txt3  {
-            position: absolute;
-            font-size: 1.8em;
-            margin: 18px 1px 1px 190px  
-        }      
+    .demo-txt3  { position: absolute; font-size: 1.8em; margin: 18px 1px 1px 190px  }      
     
-    .join-txt3 {
-        position: relative;     
-        color: #94AEBF;
-        font-size: .9em; 
-        margin: 115px 1px 1px 15px;
-        line-height: .025rem
-    }
+    .join-txt3 { position: relative; color: #94AEBF; font-size: .9em; margin: 115px 1px 1px 15px;
+                 line-height: .025rem }
     
-    .join-txt3 span {
-            color: #94AEBF;
-            font-size: .9em;
-            
-        }
+    .join-txt3 span { color: #94AEBF; font-size: .9em }
     
     }
 

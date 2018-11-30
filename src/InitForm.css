@@ -12,14 +12,19 @@
 /* #page { position: relative; max-width: 1200px; margin:0 auto;} */
 
 .demoForm {
-    position: absolute;
+    /* position: absolute; */
     display: block;
-    top: 400px;
+    /* top: 400px; */
     width: 680px;
-    margin: 15%;
+    /* margin: 15%; */
     background-color: black;
-    height: 155px
+    height: 155px;
 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 
@@ -31,7 +36,6 @@
     float: left;
     padding-left: 3%;
     color: #b6fdbf;
-    background-color: silver;
     font-size: 32px;
     margin: 5px 29px 1px 15px
 
@@ -41,31 +45,37 @@
     position: relative;
     color: #94AEBF;
     font-size: 14px;
-    margin: 10px 1px 10px -62px    
+    margin: 10px 0    
 }
 
 .chkbox {
-    position: absolute;
-    width: 750px;
-    margin-left: -59px;
+    /* position: absolute; */
+    /* width: 750px; */
+    /* margin-left: -59px; */
     cursor: pointer
 }
 
 .chkbox-txt {
     position: relative;
-    width: 875px;
+    /* width: 875px; */
 
 }
 
-.chkbox-txt p { position: absolute; font-size: 10px; color: #999; margin: 53px 265px 1px; width: 187px;
-                text-align: left }
+.chkbox-txt p { 
+    /* position: absolute;  */
+    font-size: 10px; 
+    color: #999; 
+    /* margin: 53px 265px 1px;  */
+    width: 250px;
+    text-align: left; 
+}
 
 .chkbox-txt a { color: darkgray }
 
 .check1 {
     position: relative;
     float: left;
-    margin: 55px 240px;
+    /* margin: 55px 240px; */
     cursor: pointer
 }
 
@@ -119,7 +129,7 @@
 @media only screen and (max-width: 1100px) {
     /* Tablet only */
     
-    .demoForm { margin: 15% }
+    /* .demoForm { margin: 15% } */
 }
 
 @media only screen and (max-width: 650px) {
@@ -130,7 +140,7 @@
     .join-txt { position: absolute; display: block; color: #b6fdbf; font-size: 1.4em;
                 width: 130px; margin-left: 38%}
 
-    .demo-txt { position: absolute; width: 300px; margin: 35px 1px -7px 113px }
+    .demo-txt { position: absolute; width: 300px; margin: 10px 0 }
 
     .form-group  { margin-left: 5%; margin-top: 60px }
 

@@ -16,8 +16,6 @@ class InitForm extends Component {
     }
   }
 
-  
-
   handleUserInput = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -61,38 +59,40 @@ class InitForm extends Component {
 
   render () {
     return (
-      <div id="page">
-      <form className="demoForm">
-        
-        <div className="demo-txt"> SIGN UP FOR THE TLC NEWSLETTER.
-        <div className="panel panel-default">
-          <FormErrors formErrors={this.state.formErrors} />
-        </div></div>
-        <div className="join-txt">join the list!
-        </div>    
-        
-        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
-          <input type="textarea" className="form-control" name="email"
-            placeholder="Email address"
-            value={this.state.email}
-            onChange={this.handleUserInput}  />
-        </div>
+      // <div id="page">
+        <form className="demoForm">
+          <div className="demo-txt"> SIGN UP FOR THE TLC NEWSLETTER.
+            <div className="panel panel-default">
+              <FormErrors formErrors={this.state.formErrors} />
+            </div>
+          </div>
+          
+          <div>
+            <div className="join-txt">join the list!</div>    
+              
+            <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+              <input type="textarea" className="form-control" name="email"
+                placeholder="Email address"
+                // value={this.state.email}
+                onChange={this.handleUserInput}  />
+            </div>
 
-      <div className="chkbox">
-        <div className="chkbox-txt">
-        <input type="checkbox" className="check1"  />
-        <p>I agree to receive information from Discovery Communications 
-    in accordance with the following <a href="https://corporate.discovery.com/privacy-policy/">Privacy Policy</a></p>
-    </div>  
-    </div>
-    <div className="btn1">
-        <input type="button" className="btn1-primary" 
-        onClick={() => this.props.history.push("/sign-up")}
-        disabled={!this.state.formValid} value="Next" />
-        </div>
-        
-      </form>
-      </div>
+            <div className="btn1">
+              <input type="button" className="btn1-primary" 
+                onClick={() => this.props.history.push("/sign-up")}
+                disabled={!this.state.formValid} value="Next" />
+            </div>
+          </div>
+
+          <div className="chkbox">
+            <div className="chkbox-txt">
+              <input type="checkbox" className="check1"  />
+              <p>I agree to receive information from Discovery Communications 
+                  in accordance with the following <a href="https://corporate.discovery.com/privacy-policy/">Privacy Policy</a></p>
+            </div>  
+          </div>
+        </form>
+      // </div>
     )
   }
 }

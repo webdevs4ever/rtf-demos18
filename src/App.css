@@ -5,13 +5,19 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 .App  {
-position: absolute;
-width: 1600px;
-height: 1600px;
-margin: 0;
-padding: 0;
-background: url(./images/fixerupper.jpg) no-repeat 0 0;
-background-size: cover
+  position: absolute;
+  /* width: 1600px;
+  height: 1600px; */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(./images/fixerupper.jpg) no-repeat 0 0;
+  background-size: cover
+}
 
-
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

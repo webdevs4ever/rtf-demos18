@@ -45,13 +45,14 @@
     position: relative;
     color: #94AEBF;
     font-size: 14px;
-    margin: 10px 0    
+    margin: 10px 1px 1px 60px    
 }
 
 .chkbox {
     /* position: absolute; */
     /* width: 750px; */
     /* margin-left: -59px; */
+    margin-left: 70px;
     cursor: pointer
 }
 
@@ -65,7 +66,7 @@
     /* position: absolute;  */
     font-size: 10px; 
     color: #999; 
-    /* margin: 53px 265px 1px;  */
+    margin-left: 22px;
     width: 250px;
     text-align: left; 
 }
@@ -134,13 +135,13 @@
 
 @media only screen and (max-width: 650px) {
     /* Mobile only */
-    .demoForm { width: 480px; height: 225px; margin: 3%; padding: 0 }
+    .demoForm { width: 480px; height: 255px; padding: 0 }
     
    
-    .join-txt { position: absolute; display: block; color: #b6fdbf; font-size: 1.4em;
-                width: 130px; margin-left: 38%}
+    .join-txt { position: absolute; display: block; color: #b6fdbf; font-size: 3.4em;
+                margin-left: 21%}
 
-    .demo-txt { position: absolute; width: 300px; margin: 10px 0 }
+    .demo-txt { position: absolute; width: 300px; margin: -20px 0 }
 
     .form-group  { margin-left: 5%; margin-top: 60px }
 
@@ -152,10 +153,10 @@
     .btn1-primary  { color: white; background-color: red; width: 355px;
                      height: 28px; border-radius: 2px; border: red;cursor: pointer }
 
-    .check1  { margin: 185px 76px;}
+    /* .check1  { margin: 185px 76px;} */
 
-    .chkbox { position: absolute; margin-left: 1px; width: 750px }
-    .chkbox-txt p { margin: 183px 95px 1px; width: 350px }
+    .chkbox { position: absolute; margin: 15px  1px 1px 209px; width: 750px }
+    .chkbox-txt p { margin: 183px 95px 1px 20px; width: 340px }
     .chkbox-txt a { color: darkgrey }
 
     .formErrors p { position: absolute; top: 45px; left: 95px; width: 100px }

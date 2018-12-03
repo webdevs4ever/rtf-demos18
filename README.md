@@ -2,7 +2,7 @@
 < Hello Kind User >
  ---------------
 Here are the steps to execute the demo project:
-(1) Open your terminal> CD to demo2 and enter npm start 
+(1) Open the terminal> CD to demo2 and enter npm start 
 (2) Go to /initform from the root
 (3) Enter your e-mail address and check validation. The form should prompt you to enter your complete email address if it is not properly formed.
 (4) Click Next.

@@ -73,7 +73,7 @@ class InitForm extends Component {
             <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
               <input type="textarea" className="form-control" name="email"
                 placeholder="Email address"
-                // value={this.state.email}
+                value={this.state.email}
                 onChange={this.handleUserInput}  />
             </div>
 

@@ -4,7 +4,7 @@ import './App.css'
 import InitForm2 from './InitForm2.js'
 import InitForm from './InitForm.js'
 import Congrats from './Congrats.js'
-import Placeholder from './Placeholder'
+// import Placeholder from './Placeholder'
 
 class App extends Component {
   render() {
@@ -15,8 +15,7 @@ class App extends Component {
             <Route path="/initform" component={InitForm} />
             <Route path="/sign-up" component={InitForm2} />
             <Route path="/congrats" component={Congrats} />
-            <Route path="/placeholder" component={Placeholder} />
-          </Switch>
+            </Switch>
         </Router>
       </div>
     );
